@@ -1,0 +1,162 @@
+body {
+  background-color: #313131;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Encabezado,
+.Perfil_izq,
+.Hobbies,
+.audiovisual,
+.formulario,
+.social {
+  background-color: #333;
+}
+
+.Encabezado header {
+  width: 100%;
+  min-height: calc(200px + 10vw);
+  position: relative;
+  overflow: hidden;
+}
+
+.Encabezado header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  width: 1900px;
+  height: 800px;
+}
+
+.Encabezado .Perfil_izq {
+  padding: 30px 20px;
+  text-align: center;
+  max-width: 350px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Encabezado .Perfil_izq .Imagen {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Encabezado .Perfil_izq .Imagen img:hover {
+  transform: scale(1.1); 
+}
+.Encabezado .Perfil_izq .Imagen img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 1px 3px 12px rgba(179, 179, 179, 0.18);
+  
+}
+
+.Encabezado h1 {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.Encabezado p {
+  font-size: 0.9rem;
+  margin: 35px 0;
+  justify-content: space-between;
+  position: relative;
+}
+
+.Hobbies {
+  text-align: center;
+  margin-top: 20px; /* Agregado para dar más espacio arriba */
+}
+
+.Hobbies h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: darkgrey;
+  font-size: 44px; /* Ajusta el tamaño del título según sea necesario */
+  margin-bottom: 20px;
+}
+
+.hobbies-container {
+  display: flex;
+  justify-content: space-around; /* Cambiado a "space-around" para un espaciado uniforme */
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px; /* Añade un pequeño margen entre elementos */
+}
+
+.hobbies-container .about__paragrah {
+  font-size: 26px; /* Ajusta el tamaño del texto según sea necesario */
+  margin-top: 10px;
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.hobbies-container img {
+  width: 350px; /* Ajusta el tamaño de las imágenes según sea necesario */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.hobbies-container img:hover {
+  transform: scale(1.1); 
+
+}
+.about__icons {
+  display: grid;
+  gap: 1em;
+  justify-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.audiovisual,
+
+.social {
+  background-color: rgb(54, 54, 54);
+  color: #fff;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+.formulario {
+  padding: 25px 20px;
+  text-align: center;
+  max-width: 350px;
+  position: relative;
+  margin: 0 auto;
+}
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Puedes ajustar este valor según tus preferencias para agregar espacio entre el formulario y los botones */
+}
+
+
+.social table {
+  width: 100%;
+}
+
+.social th,
+.social td {
+  padding: 10px;
+  text-align: center;
+}
+
+.social a {
+  color: #fff;
+  text-decoration: none;
+}
+
